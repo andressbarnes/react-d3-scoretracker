@@ -1,5 +1,8 @@
 ## React / D3 Scoretracker is an exploration into making D3 work with react.
 
+D3 Line Graph example:
+![Graph](https://i.imgur.com/r9ON2rQ.gif)
+
 ### Requires json-server to be running to render data
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
