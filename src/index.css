@@ -5,9 +5,49 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #a1a1a1 !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100vh;
+  padding: 0 50px;
+}
+
+svg {
+  background: linear-gradient(rgb(36, 43, 63), rgb(30, 36, 70));
+}
+
+.d3-overflow {
+  overflow: visible !important;
+}
+
+.d3-responsive {
+  width: 100%;
+  display: block;
+}
+
+.mb {
+  margin-bottom: 20px;
+}
+
+.tick line {
+  stroke: rgb(255, 255, 255) !important;
+  stroke-opacity: 0.1;
+  shape-rendering: crispEdges;
+}
+
+.row-selected {
+  background: rgb(75, 32, 32) !important;
+}
+
+.row-selected:hover td {
+  background: rgb(100, 30, 30) !important;
 }
