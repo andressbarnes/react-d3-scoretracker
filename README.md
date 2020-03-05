@@ -1,8 +1,17 @@
+## React / D3 Scoretracker is an exploration into making D3 work with react.
+
+### Requires json-server to be running to render data
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm run api`
+
+Runs the api over port 4000.<br />
+Open [http://localhost:4000/users](http://localhost:4000/users) to view it in the browser.
 
 ### `npm start`
 
